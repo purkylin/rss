@@ -1,12 +1,27 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover"" class=" flex flex-col min-h-screen mx-2 ">
+	<div class=" flex-grow">%sveltekit.body%</div>
+
+	<footer class="border-t-2 mx-2">
+		<div class="sites flex flex-row gap-2 mx-auto justify-center pt-4">
+			<a href="https://svelte.dev/tutorial/svelte/welcome-to-svelte" class="underline">Svelte Tutorial</a>
+			<a href="https://play.tailwindcss.com/">Tailwind Playground</a>
+			<a href="https://tailwindcss.com/docs/installation">Tailwind Documentation</a>
+			<a href="https://www.shadcn-svelte.com/docs/components/button">shadcn-svelte</a>
+			<a href="https://github.com/marketplace/models/azure-openai/gpt-4o/playground">Github Models</a>
+		</div>
+		<p class="py-4 text-center">Copyright © 2024 by Purkylin</p>
+	</footer>
+</body>
+
+
 </html>
