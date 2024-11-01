@@ -8,6 +8,10 @@
 			url: 'https://news.ycombinator.com/rss'
 		},
 		{
+			title: 'Linux Do',
+			url: 'https://linux.do/latest.rss'
+		},
+		{
 			title: 'Rust China',
 			url: 'https://rustcc.cn/rss'
 		},

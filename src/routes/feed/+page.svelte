@@ -36,7 +36,7 @@
 		<ul class="space-y-1 list-disc px-6">
 			{#each feed['items'] as item}
 				<li>
-					<a href={item['link']} class="link line-clamp-1">{item['title']} </a>
+					<a href={item['link']} class="link line-clamp-2">{item['title']} </a>
 					<p class="subtitle">{formatDate(item['pubDate'])}</p>
 				</li>
 			{/each}
