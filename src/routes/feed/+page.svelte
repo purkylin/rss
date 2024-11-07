@@ -33,10 +33,11 @@
 
 			<p class="subtitle text-center">Last update time: {formatDate(feed['lastBuildDate'])}</p>
 		</div>
-		<ul class="space-y-1 list-disc px-6">
+		<ul class="space-y-2 list-disc px-6">
 			{#each feed['items'] as item}
 				<li>
-					<a href={item['link']} class="link line-clamp-2">{item['title']} </a>
+					<a href={item['link']} class="link line-clamp-2 text-lg">{item['title']} </a>
+					<!-- <p class="subtitle">{@html item.content}</p> -->
 					<p class="subtitle">{formatDate(item['pubDate'])}</p>
 				</li>
 			{/each}

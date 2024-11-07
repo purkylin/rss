@@ -9,7 +9,7 @@
 		},
 		{
 			title: 'Linux Do',
-			url: 'https://linux.do/latest.rss'
+			url: 'https://linux.do/posts.rss'
 		},
 		{
 			title: 'Rust China',
